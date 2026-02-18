@@ -1,0 +1,36 @@
+[0;32m[2026-02-18 22:12:54][0m Starting web server deployment...
+[0;32m[2026-02-18 22:12:54][0m Installing Nginx...
+Updating Subscription Management repositories.
+Last metadata expiration check: 3:31:04 ago on Wed 18 Feb 2026 06:41:51 PM IST.
+Package nginx-2:1.20.1-22.el9_6.3.aarch64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+[0;32m[2026-02-18 22:12:56][0m Nginx installed successfully
+[0;32m[2026-02-18 22:12:56][0m Configuring firewall...
+Warning: ALREADY_ENABLED: http
+success
+Warning: ALREADY_ENABLED: https
+success
+success
+[0;32m[2026-02-18 22:12:56][0m Firewall configured successfully
+[0;32m[2026-02-18 22:12:56][0m Creating web directory: /var/www/mywebsite
+[0;32m[2026-02-18 22:12:56][0m Creating sample website...
+[0;32m[2026-02-18 22:12:56][0m Setting permissions...
+[0;32m[2026-02-18 22:12:56][0m Creating Nginx configuration...
+[0;32m[2026-02-18 22:12:56][0m Testing Nginx configuration...
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+[0;32m[2026-02-18 22:12:56][0m Nginx configuration is valid
+[0;32m[2026-02-18 22:12:56][0m Starting Nginx service...
+[0;32m[2026-02-18 22:12:57][0m Nginx service started successfully
+[0;32m[2026-02-18 22:12:57][0m Configuring SELinux...
+File context for /var/www/mywebsite(/.*)? already defined, modifying instead
+[0;32m[2026-02-18 22:12:58][0m Generating self-signed SSL certificate...
+..+.........+..+.+.....+...................+...+.....+.+++++++++++++++++++++++++++++++++++++++*...........+++++++++++++++++++++++++++++++++++++++*.....+.+......+.....+....+...........+...+.+.........+..+...+....+......+.........+............+...+...............+.....+......+..........+............+.........+......+...+..+...+......+...+.+......+...+..+..........+..............+.+...+...+........+.+.....++++++
+....+....+...+..+.+++++++++++++++++++++++++++++++++++++++*..+.+..+....+++++++++++++++++++++++++++++++++++++++*..+.+.....+.......+......+.........+..+...+.+..+...+...............+.+...+..+.+..............+.+...+..+....+...+........+....+.....+....+.........+.....+...+...............+....+...+...+.....+.......+..+.........+............+...+.+...+...+............+..+.+...+.....+.........+................+.........+.....+......+.+...............+........+.+.....+.......+.....+...+....+...+.....+.......+...+...+..+...............+.............+...........+.........+......+.+...+.....+.++++++
+-----
+[0;32m[2026-02-18 22:12:58][0m SSL certificate generated successfully
+[0;32m[2026-02-18 22:12:58][0m SSL configuration applied
+[0;32m[2026-02-18 22:12:58][0m ✅ Web Server Deployment Complete!
+[0;32m[2026-02-18 22:12:58][0m Deployment completed successfully
