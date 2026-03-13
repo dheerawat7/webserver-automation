@@ -2,9 +2,8 @@
 
 ###############################################################################
 # Automated Web Server Deployment Script
-# Author: Your Name
+# Author: Pradhyuman Singh Dheerawat
 # Description: Automates Nginx installation, configuration, and SSL setup
-# Date: $(date +%Y-%m-%d)
 ###############################################################################
 
 # Color codes for output
